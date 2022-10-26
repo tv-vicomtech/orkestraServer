@@ -1,0 +1,9 @@
+node_modules
+log
+logs
+dist
+.env
+mongo-volume
+dhparam
+*.pem
+web-root

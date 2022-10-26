@@ -1,0 +1,35 @@
+{
+  "apps" : [{
+    "name"        : "mainServer",
+    "script"      : "./index.js",
+    "watch"       : true,
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "env_production" : {
+       "NODE_ENV": "production"
+    }
+  },{
+    "name"       : "MotionServer",
+    "script"     : "./MotionServer/server/server.js",
+    "watch"  : true,
+  },
+  {
+    "name"       : "DeviceProfiler",
+    "script"     : "./deviceProfileServer/server.js",
+    "watch"  : true,
+  },
+ {
+    "name"       : "TwitterServer",
+    "script"     : "./twitter_server2/server.js",
+    "watch"  : true,
+  },
+   {
+    "name"       : "InstagramServer",
+    "script"     : "./Instagram_server/server.js",
+    "watch"  : true,
+  }
+
+
+]
+}
